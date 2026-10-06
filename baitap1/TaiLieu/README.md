@@ -1,3 +1,23 @@
+BÀI TẬP 1 - Tuần 1
+
+1. Thông tin sinh viên
+
+- Họ và tên: Bùi Ngọc Trang
+
+- MSSV: 079306029517
+
+- Môn học: Lập trình thiết bị di động di động
+
+2. Mục tiêu
+
+- Làm quen với Android Studio.
+
+- Tạo một project Android bằng Kotlin.
+
+- Thiết kế giao diện và chạy thử trên Android Studio
+
+- Làm quen với GitHub và quản lý source code.
+
 === PHẦN 1 ===
 
 Câu 1: Mong muốn và định hướng của bạn sau khi học xong môn học là gì?
@@ -19,8 +39,29 @@ Theo em trong 10 năm tới lập trình di động sẽ phát triển mạnh m�
 - Nhu cầu chuyển đổi số ở các doanh nghiệp trên mọi lĩnh vực
 
 Câu 3: Code UI
+1. Input
+
+- File ảnh đại diện `img.png` trong thư mục `res/drawable/`.
+
+- Các Icon vector hệ thống: `ArrowBack` (Nút quay lại), `Edit` (Nút chỉnh sửa).
+
+- Dữ liệu văn bản: `"BÙI NGỌC TRANG"`, `"079306029517"`.
+
+2. Output
 
 ![img_3.png](img_3.png)
+
+3. Giải thích các hàm
+
+- MainActivity: ComponentActivity chính khởi chạy giao diện ứng dụng thông qua setContent.
+
+- ProfileScreen(): Hàm Composable tổng dựng toàn bộ bố cục
+
+- Row: Chứa thanh Header trên cùng với icon quay lại và icon chỉnh sửa.
+
+- Image: Hiển thị ảnh đại diện, sử dụng Modifier .clip(CircleShape) để làm tròn khung hình.
+
+- Text: Hiển thị Họ tên và MSSV với định dạng font chữ và màu sắc phù hợp.
 
 PHẦN 2
 
