@@ -1,4 +1,4 @@
-package com.example.baitap2.bt01
+package com.example.baitap2.baithuchanh
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -26,7 +26,6 @@ fun CalculatorScreen() {
             selectedOp = null
             result = null
         } else {
-
             selectedOp = op
             val n1 = num1.toDoubleOrNull()
             val n2 = num2.toDoubleOrNull()
@@ -126,7 +125,7 @@ fun CalculatorScreen() {
     }
 }
 
-private fun formatResult(res: Double?): String {
+fun formatResult(res: Double?): String {
     if (res == null) return ""
     if (res.isNaN()) return "Lỗi chia cho 0"
     return if (res == res.toInt().toDouble()) res.toInt().toString() else res.toString()
