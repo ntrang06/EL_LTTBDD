@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.baitap2.baithuchanh.CalculatorScreen
+import com.example.baitap2.baithuchanh.StudentListScreen
 import com.example.baitap2.ui.theme.Baitap2Theme
 
 class MainActivity : ComponentActivity() {
@@ -15,7 +16,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Baitap2Theme {
-                CalculatorScreen()
+                StudentListScreen()
             }
         }
     }
@@ -25,6 +26,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingPreview() {
     Baitap2Theme {
-        CalculatorScreen()
+        StudentListScreen()
     }
 }
