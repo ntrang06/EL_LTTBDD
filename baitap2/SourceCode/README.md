@@ -6,13 +6,13 @@
 
 - `baithuchanh/`: Thư mục chứa các tệp mã nguồn cho từng bài:
 
-    * `bai01.kt`: bài máy tính
+    * `bai01.kt`: bài máy tính    CalculatorScreen()
   
-    * `bai02.kt`: danh sách sinh viên
+    * `bai02.kt`: danh sách sinh viên     StudentListScreen()
   
-    * `bai03.kt`: xếp loại học lực
+    * `bai03.kt`: xếp loại học lực        GradeClassificationScreen()
   
-    * `bai04.kt`: bài Bảng điểm lớp
+    * `bai04.kt`: bài Bảng điểm lớp       ClassScoreBoardScreen()
 
 ## 2. Hướng dẫn chạy chương trình
 

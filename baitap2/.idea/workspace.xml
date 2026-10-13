@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1ea5f1b-6d82-4cc2-af38-d5beb00cd83c" name="Changes" comment="baitap2">
-      <change afterPath="$PROJECT_DIR$/TaiLieu/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaiLieu/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaiLieu/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaiLieu/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaiLieu/img_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SourceCode/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SourceCode/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SourceCode/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SourceCode/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SourceCode/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SourceCode/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SourceCode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SourceCode/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaiLieu/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TaiLieu/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
